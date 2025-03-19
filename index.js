@@ -10,9 +10,9 @@ const app = express();
 
 app.use(express.json())
 
-// app.get('/',(req,res)=>{
-//     res.status(200).json('server running sucessfuly')
-// })
+app.get('/',(req,res)=>{
+    res.status(200).json('server running sucessfuly')
+})
 
 app.use('/user',UserRoute)
 app.use(Auth)
