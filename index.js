@@ -15,6 +15,7 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/user',UserRoute)
+
 app.use(Auth)
 app.use('/users',UsersInfoRoute)
 app.use('/orders', orderRoutes);
