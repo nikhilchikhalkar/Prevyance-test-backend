@@ -1,0 +1,34 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file
+.env
+
+# Build output (for React or other front-end frameworks)
+build/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE or editor folders (you can customize this for your editor)
+.vscode/
+.idea/
+
+# Optional: Add coverage reports if you're using testing tools like Jest
+coverage/
+
+# Optional: For files related to Docker (if used)
+.docker/
+.docker-compose.yml
+
+# Optional: For temporary files or other generated files
+tmp/
